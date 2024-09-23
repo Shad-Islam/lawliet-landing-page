@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav css start */
+
+nav{
+    height: 100px;
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+
+.nav-logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: rosybrown; */
+}
+
+
+.nav-logo img{
+    width: 144px;
+    height: 36px;
+}
+
+
+.nav-menu{
+    width:60%;
+    height: 100%;
+    display: flex;
+    /* top to bottom */
+    align-items: center;
+    /* left to right */
+    justify-content: flex-end;
+    /* background-color: aquamarine; */
+}
+
+.nav-menu-list{
+    gap: 56px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item a{
+    font-size: 12px;
+    color: #2D2F30;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: Poppins;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+
+.nav-search-button{
+    width: 10%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: blue; */
+}
+.nav-search-button i{
+    width: 24px;
+    height: 24px;
+    
+}
+
+/* navbar css end */
+
+/* banner start css */
+.banner{
+    width: 1440px;
+    height: 924px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F9F8F9;
+
+}
+
+.banner-title{
+    top:150px;
+    left: 55px;
+    width: 891px;
+    height: 728px;
+    position: absolute;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.banner-title .banner-heading{
+    font-size: 90px;
+    color: #094B72;
+    font-weight: 700;
+    text-align: left;
+    line-height: 108px;
+    margin-bottom: 40px;
+    padding-right: 46px;
+    letter-spacing: 0.02em;
+    font-family: Playfair Display;
+
+}
+
+.banner-title .banner-text{
+    color: #4F4F4F;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-bottom: 36px;
+    padding-right: 306px;
+    line-height: 37.92px;
+    letter-spacing: 0.5px;
+    font-family: Plus Jakarta Sans;
+
+}
+
+.banner-button{
+    color: #F9F8F9;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 4px;
+    text-align: left;
+    padding: 29px 36px;
+    border-radius: 8px;
+    line-height: 22.48px;
+    text-decoration: none;  
+    letter-spacing: 0.08em;
+    background-color: #094B72;
+    font-family: Plus Jakarta Sans;
+
+}
+
+.banner-image{
+    width: 549px;
+    height: 924px;
+    position: absolute;
+    right: 0px;
+    background-color: aquamarine;
+}
+/* banner end css */
+
