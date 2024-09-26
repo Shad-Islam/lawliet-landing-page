@@ -137,12 +137,160 @@ nav{
 
 }
 
+.banner-title-logo{
+    left: 5px;
+    width: 540px;
+    bottom: 47px;
+    height: 153px;
+    position: absolute;
+    /* background-color: aqua; */
+}
+
+.banner-title-logo-text{
+    font-size: 22px;
+    text-align: left;
+    color: #8B8C8C;
+    font-weight: 400;
+    margin-bottom: 34px;
+    line-height: 30.91px;
+    letter-spacing: 0.04em;
+    font-family: Plus Jakarta Sans;
+
+}
+
+.banner-title-logo-images{
+    width: 238px;
+    height: 88px;
+    position: relative;
+    /* background-color: bisque; */
+}
+
+img[src="./images/airbnb.png"]{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+img[src="./images/hubspot.png"]{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+img[src="./images/Microsoft Logo.png"]{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+img[src="./images/Google Logo.png"]{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
 .banner-image{
+    right: 0px;
     width: 549px;
     height: 924px;
     position: absolute;
-    right: 0px;
-    background-color: aquamarine;
+    /* position: relative; */
+    /* background-color: aquamarine; */
+}
+.banner-image img{
+    position: absolute;
+    bottom: 0px;
+    right: 223px;
+
 }
 /* banner end css */
 
+/* feature css start  */
+.feature{
+    width: 1440px;
+    height: 786px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F2FCFF;
+}
+
+.feature-title{
+    width: 420px;
+    height: 302px;
+    position: absolute;
+    left: 167px;
+    top: 174px;
+    /* background-color: #009395; */
+}
+
+.feature-title .feature-heading{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.32307693362236023px;
+    text-align: left;
+    color: #2D2F30;
+
+}
+.feature-title .feature-text{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8B8C8C;
+    position: absolute;
+    top: 158px;
+    left: 8px;
+    right:27px;
+
+}
+
+.feature-items{
+    width: 545px;
+    height: 534px;
+    position: absolute;
+    right: 256px;
+    top: 126px;
+    /* background-color: #782e78; */
+}
+
+.feature-items-row:last-child{
+    margin-top: 28px;
+}
+
+.feature-items-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item-heading{
+    margin: 18px 0px 10px;
+    padding-right: 14px;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #363940;
+}
+.feature-item-text{
+    font-size: 14px;
+    color: #363940;
+    font-weight: 400;
+    text-align: left;
+    color: #8B8C8C;
+    line-height: 24px;
+    font-family: Plus Jakarta Sans;
+}
+
+.feature-item{
+    width: 255px;
+    height: 253px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px #0000000F;
+
+}
+/* feature css end */
