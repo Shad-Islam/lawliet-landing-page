@@ -294,3 +294,16 @@ img[src="./images/Google Logo.png"]{
 
 }
 /* feature css end */
+/* review css start  */
+.review{
+        width: 1440px;
+        height: 356px;
+        margin: 0 auto;
+        background: url("../images/bg.png") no-repeat center center;
+        background-size: cover;
+}
+    
+
+
+
+/* review css end */
