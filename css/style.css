@@ -300,10 +300,82 @@ img[src="./images/Google Logo.png"]{
         height: 356px;
         margin: 0 auto;
         background: url("../images/bg.png") no-repeat center center;
-        background-size: cover;
+        background-size:cover;
+}
+
+.review-container{
+    width: 825px;
+    margin: 0 auto;
+    padding-top: 53px;
+    /* background-color: antiquewhite; */
+}
+.review-heading{
+    margin-bottom: 48px;
+}
+.review-heading h2{
+    color: #ffffff;
+    /* typography */
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 0.005em;
+    font-family: Playfair Display;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+
 }
     
+.review-heading p{
+    color: #ffffff;
+    /* typography */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: Poppins;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}
+.review-statistics{
+    gap: 15px;
+    display: flex;
+}
+.review-statistics-item{
+    width: 255px;
+    height: 96px;
+    color: #ffffff;
+}
 
+.review-statistics-item h2{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+    font-family: Poppins;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
 
+}
+.review-statistics-item h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    font-family: Poppins;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+    letter-spacing: 0.30000001192092896px;
+
+}
+
+.vertical-rule {
+    width: 1px; 
+    height: 96px; 
+    margin: 0 auto; 
+    background-color: #ffffffaa; 
+}
 
 /* review css end */
